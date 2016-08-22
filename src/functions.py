@@ -8,4 +8,4 @@ def simple_if(a, b):
 
 
 def simple_if_no_if(a, b):
-    return extract_filter_value(filter(lambda item: item, (a, b)))
+    return extract_filter_value(filter(None, (a, b)))
